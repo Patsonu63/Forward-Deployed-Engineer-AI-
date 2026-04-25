@@ -24,6 +24,8 @@ Experiment (1 hr)
 12. Change temperature in the Claude call — try 0 vs 1 and compare outputs on the same question
 13. Try making Claude return different JSON structures — this is core FDE prompt engineering
 #### DAY2
+# Topic 1: How LLMs Work — The Mental Model You Need
+  
 <img width="1198" height="600" alt="image" src="https://github.com/user-attachments/assets/6038473e-1220-4304-8854-ef5a4281f5a3" />
 
 This is the full pipeline every time you call an LLM API. Your text gets tokenized into integer IDs, converted to vectors, processed through stacked transformer layers (where attention and temperature live), and decoded back to text.
