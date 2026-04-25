@@ -23,4 +23,7 @@ Git (30 min)
 Experiment (1 hr)
 12. Change temperature in the Claude call — try 0 vs 1 and compare outputs on the same question
 13. Try making Claude return different JSON structures — this is core FDE prompt engineering
+#### DAY2
+<img width="1198" height="600" alt="image" src="https://github.com/user-attachments/assets/6038473e-1220-4304-8854-ef5a4281f5a3" />
+
 
