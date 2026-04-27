@@ -39,6 +39,8 @@ d2_api.py — read every field of the response object in the terminal
 d2_prompts.py — run all 6 techniques, then modify the few-shot examples and see how the output changes
 d2_hallucination.py — deliberately try to make Claude hallucinate by asking about very recent events without grounding
 
+
+
 Experiments to try (1 hr):
 
 Change the system prompt persona in technique 5 to something completely different (e.g., a pirate) and see the same question answered differently
@@ -47,6 +49,19 @@ In the grounding example, ask a question that's NOT in the knowledge base — Cl
 
 # Build the capstone (1 hr): Run d2_capstone.py with all 4 test tickets. Then add your own ticket and see how it classifies. Try to break it — write an ambiguous ticket and see how it handles confidence: low.
 # Commit everything to GitHub with message: feat: day 2 — LLM fundamentals and prompt engineering lab
+
+
+
+
+## Day 3: RAG & Vector Databases — Complete Deep Dive
+Let's build everything from scratch — embeddings, vector search, chunking, and a full RAG pipeline.
+Topic 1: What is RAG & Why It Exists
+<img width="1198" height="740" alt="image" src="https://github.com/user-attachments/assets/7b1e8121-3448-4a3e-882e-81dc68bc7a2e" />
+The key insight: RAG has two separate flows. The offline flow runs once — it processes your documents, splits them, embeds them, and stores the vectors. The online flow runs every time a user asks a question — it embeds the query, finds the most similar chunks, and sends them to the LLM as context. Click any node to dive deeper.
+
+
+
+
 
 
 
