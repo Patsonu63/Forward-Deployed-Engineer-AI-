@@ -100,6 +100,16 @@ Run `pip install chromadb voyageai anthropic pypdf2 python-dotenv` and get a fre
 
 **Commit to GitHub:** `feat: day 3 — embeddings, chunking, chromadb, full RAG pipeline with evaluation`
 
+Day 4: AI Agents, Tool Use & The ReAct Loop
+Let's build everything from scratch — tool use, the ReAct pattern, multi-tool agents, failure handling, and a full working agent.
+## Topic 1: What is an AI Agent — The Mental Model
+<img width="1440" height="760" alt="image" src="https://github.com/user-attachments/assets/6b3f3689-b7a1-4173-8ef0-33671bf5e629" />
+
+The ReAct loop is the heartbeat of every AI agent. The LLM thinks about what to do next (Thought), calls a tool (Action), reads the result (Observation), then repeats — until it decides it has enough information to give a final answer. Click any node to explore deeper.
+
+
+ 
+
 
 
 
